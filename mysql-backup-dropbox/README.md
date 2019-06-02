@@ -16,7 +16,7 @@ $ docker run \
   -e MYSQL_HOST=mysql \
   -e DROPBOX_ACCESS_TOKEN=YOUR_TOKEN \
   -e SCHEDULE=@daily \
-  suin/mysql-backup-dropbox
+  lignumaqua/mysql-backup-dropbox
 ```
 
 ## Environment variables
