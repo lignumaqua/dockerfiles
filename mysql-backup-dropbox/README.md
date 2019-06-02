@@ -1,6 +1,6 @@
 # mysql-backup-dropbox
 
-Backup MySQL to Dropbox (supports periodic backups & mutli files)
+Backup MySQL to Dropbox API V2 (supports periodic backups & mutli files)
 
 ## Basic Usage
 
