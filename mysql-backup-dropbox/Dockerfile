@@ -1,6 +1,6 @@
 
 FROM alpine:edge
-MAINTAINER Suin "suinyeze@gmail.com"
+MAINTAINER lignumaqua "mike@mikewoodconsulting.com"
 
 ADD install.sh install.sh
 RUN sh install.sh && rm install.sh
@@ -14,7 +14,7 @@ ENV MYSQL_PASSWORD ""
 ENV DROPBOX_PREFIX ""
 ENV DROPBOX_ACCESS_TOKEN ""
 ENV SCHEDULE ""
-ENV TZ=Asia/Jakarta
+ENV TZ=America/Chicago
 
 RUN apk add --no-cache tzdata
 ADD run.sh run.sh
